@@ -2,8 +2,7 @@
 FROM binwiederhier/ntfy:latest
 
 # Copy config file and startup script
-COPY ./server.yml /etc/ntfy/server.yml
-COPY ./startup.sh /app/startup.sh
+COPY ./rootfs /
 
 # Make the startup script executable
 RUN chmod +x /app/startup.sh

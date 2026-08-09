@@ -1,12 +1,8 @@
-# fly.toml app configuration file generated for ntfy-2imvla on 2025-11-16T04:22:38Z
-#
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
-
-app = 'ntfy-2imvla'
-primary_region = 'ewr'
+app = 'crimson-sea-982'
+primary_region = 'iad'
 
 [build]
+  dockerfile = "Containerfile"
 
 [http_service]
   internal_port = 80
