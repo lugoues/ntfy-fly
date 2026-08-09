@@ -1,8 +1,11 @@
 base-url: "https://crimson-sea-982.fly.dev"
 cache-file: "/app/data/cache.db"
 cache-duration: "12h"
-# auth-file: "/app/data/user.db"
-# auth-default-access: "deny-all"
+auth-file: "/app/data/user.db"
+auth-default-access: "deny-all"
 attachment-cache-dir: "/app/data/attachments"
 log-level: "debug"
 upstream-base-url: https://ntfy.sh
+enable-login: true
+require-login: true
+
